@@ -1,0 +1,3 @@
+[submodule "ark-node"]
+	path = ark-node
+	url = https://github.com/ArkEcosystem/ark-node.git

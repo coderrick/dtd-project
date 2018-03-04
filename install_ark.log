@@ -1,0 +1,65 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  libopts25 sntp
+Suggested packages:
+  ntp-doc
+The following NEW packages will be installed:
+  libopts25 ntp sntp
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 786 kB of archives.
+After this operation, 2,395 kB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu artful/main amd64 libopts25 amd64 1:5.18.12-3 [57.0 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu artful-updates/main amd64 ntp amd64 1:4.2.8p10+dfsg-5ubuntu3.2 [642 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu artful-updates/main amd64 sntp amd64 1:4.2.8p10+dfsg-5ubuntu3.2 [87.2 kB]
+Fetched 786 kB in 1s (526 kB/s)
+Selecting previously unselected package libopts25:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 256262 files and directories currently installed.)
+Preparing to unpack .../libopts25_1%3a5.18.12-3_amd64.deb ...
+Unpacking libopts25:amd64 (1:5.18.12-3) ...
+Selecting previously unselected package ntp.
+Preparing to unpack .../ntp_1%3a4.2.8p10+dfsg-5ubuntu3.2_amd64.deb ...
+Unpacking ntp (1:4.2.8p10+dfsg-5ubuntu3.2) ...
+Selecting previously unselected package sntp.
+Preparing to unpack .../sntp_1%3a4.2.8p10+dfsg-5ubuntu3.2_amd64.deb ...
+Unpacking sntp (1:4.2.8p10+dfsg-5ubuntu3.2) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Processing triggers for libc-bin (2.26-0ubuntu2.1) ...
+Processing triggers for systemd (234-2ubuntu12.1) ...
+Setting up libopts25:amd64 (1:5.18.12-3) ...
+Processing triggers for man-db (2.7.6.1-2) ...
+Setting up sntp (1:4.2.8p10+dfsg-5ubuntu3.2) ...
+Setting up ntp (1:4.2.8p10+dfsg-5ubuntu3.2) ...
+Created symlink /etc/systemd/system/network-pre.target.wants/ntp-systemd-netif.path → /lib/systemd/system/ntp-systemd-netif.path.
+Created symlink /etc/systemd/system/multi-user.target.wants/ntp.service → /lib/systemd/system/ntp.service.
+ntp-systemd-netif.service is a disabled or a static unit, not starting it.
+Processing triggers for libc-bin (2.26-0ubuntu2.1) ...
+Processing triggers for systemd (234-2ubuntu12.1) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+ 4 Mar 09:06:30 ntpd[14293]: ntpd 4.2.8p10@1.3728-o (1): Starting
+ 4 Mar 09:06:30 ntpd[14293]: Command line: ntpd -gq
+ 4 Mar 09:06:30 ntpd[14293]: proto: precision = 0.072 usec (-24)
+ 4 Mar 09:06:30 ntpd[14293]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
+ 4 Mar 09:06:30 ntpd[14293]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2018-06-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
+ 4 Mar 09:06:30 ntpd[14293]: Listen and drop on 0 v6wildcard [::]:123
+ 4 Mar 09:06:30 ntpd[14293]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+ 4 Mar 09:06:30 ntpd[14293]: Listen normally on 2 lo 127.0.0.1:123
+ 4 Mar 09:06:30 ntpd[14293]: Listen normally on 3 wlo1 10.255.9.242:123
+ 4 Mar 09:06:30 ntpd[14293]: Listen normally on 4 lo [::1]:123
+ 4 Mar 09:06:30 ntpd[14293]: Listen normally on 5 wlo1 [fe80::ade4:7665:f9f9:f967%2]:123
+ 4 Mar 09:06:30 ntpd[14293]: Listening on routing socket on fd #22 for interface updates
+ 4 Mar 09:06:31 ntpd[14293]: Soliciting pool server 173.230.144.109
+ 4 Mar 09:06:32 ntpd[14293]: Soliciting pool server 45.79.187.10
+ 4 Mar 09:06:32 ntpd[14293]: Soliciting pool server 199.102.46.73
+ 4 Mar 09:06:33 ntpd[14293]: Soliciting pool server 52.6.160.3
+ 4 Mar 09:06:33 ntpd[14293]: Soliciting pool server 198.211.103.209
+ 4 Mar 09:06:33 ntpd[14293]: Soliciting pool server 108.61.73.243
+ 4 Mar 09:06:34 ntpd[14293]: Soliciting pool server 108.61.56.35
+ 4 Mar 09:06:35 ntpd[14293]: Soliciting pool server 91.189.89.199
+ 4 Mar 09:06:36 ntpd[14293]: Soliciting pool server 91.189.91.157
+ 4 Mar 09:06:37 ntpd[14293]: Soliciting pool server 91.189.94.4
+ 4 Mar 09:06:38 ntpd[14293]: Soliciting pool server 91.189.89.198
+ 4 Mar 09:06:39 ntpd[14293]: Soliciting pool server 2001:67c:1560:8003::c7
+ 4 Mar 09:06:40 ntpd[14293]: ntpd: time slew -0.016023 s
+ntpd: time slew -0.016023s
